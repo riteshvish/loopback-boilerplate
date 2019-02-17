@@ -34,7 +34,7 @@
   },
   "Role": {
     "dataSource": "mdb",
-    "public": true
+    "public": false
   },
   "Product": {
     "dataSource": "mdb",
