@@ -8,6 +8,7 @@
     "name": "mdb",
     "hostname": "localhost",
     "connector": "mongodb",
-    "allowExtendedOperators": true
+    "allowExtendedOperators": true,
+    "useNewUrlParser": true
   }
 }
