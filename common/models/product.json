@@ -21,10 +21,18 @@
       "permission": "DENY"
     },
     {
-      "accessType": "*",
+      "accessType": "EXECUTE",
+      "principalType": "ROLE",
+      "principalId": "superadmin",
+      "permission": "ALLOW",
+      "property": "create"
+    },
+    {
+      "accessType": "EXECUTE",
       "principalType": "ROLE",
       "principalId": "admin",
-      "permission": "ALLOW"
+      "permission": "ALLOW",
+      "property": "find"
     }
   ],
   "methods": {}
