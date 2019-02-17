@@ -11,6 +11,11 @@
       "required": true
     }
   },
+  "mixins": {
+    "Timestamp": true,
+    "Counts": true,
+    "List": true
+  },
   "validations": [],
   "relations": {},
   "acls": [
@@ -25,7 +30,7 @@
       "principalType": "ROLE",
       "principalId": "superadmin",
       "permission": "ALLOW",
-      "property": "create"
+      "property": "*"
     },
     {
       "accessType": "EXECUTE",

@@ -11,6 +11,11 @@
       "required": true
     }
   },
+  "mixins": {
+    "Timestamp": true,
+    "Counts": true,
+    "List": true
+  },
   "validations": [],
   "relations": {},
   "acls": [
