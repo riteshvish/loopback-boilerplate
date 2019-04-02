@@ -44,5 +44,8 @@
   "Users": {
     "dataSource": "mdb",
     "public": true
+  },
+  "Email": {
+    "dataSource": "gmailmail"
   }
 }

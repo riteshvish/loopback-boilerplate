@@ -10,5 +10,19 @@
     "connector": "mongodb",
     "allowExtendedOperators": true,
     "useNewUrlParser": true
-  }
+  },
+  "gmailmail": {
+  "name": "mail",
+  "connector": "mail",
+  "transports": [{
+    "type": "SMTP",
+    "host": "smtp.gmail.com",
+    "secure": true,
+    "port": 465,
+    "auth": {
+      "user": "gmail.com",
+      "pass": "pass"
+    }
+  }]
+}
 }
